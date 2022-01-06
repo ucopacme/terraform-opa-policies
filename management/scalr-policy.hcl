@@ -3,7 +3,7 @@ version = "v1"
 
 policy "enforce_ami_owners" {
   enabled           = true
-  enforcement_level = "hard-mandatory"
+  enforcement_level = "advisory"
 }
 
 policy "workspace_destroy" {
@@ -13,7 +13,7 @@ policy "workspace_destroy" {
 
 policy "instance_types" {
   enabled           = true
-  enforcement_level = "hard-mandatory"
+  enforcement_level = "advisory"
 }
 
 policy "resource_tags" {
@@ -23,7 +23,7 @@ policy "resource_tags" {
 
 policy "whitelist_ami" {
   enabled           = true
-  enforcement_level = "hard-mandatory"
+  enforcement_level = "advisory"
 }
 
 policy "workspace_name" {
