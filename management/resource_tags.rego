@@ -5,7 +5,7 @@ package terraform
 import input.tfplan as tfplan
 
 
-required_tags = ["owner", "department"]
+required_tags = ["ucop:application", "ucop:createdBy", "ucop:enviroment", "ucop:group"]
 
 
 array_contains(arr, elem) {
